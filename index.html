@@ -915,105 +915,110 @@ Attēls: titru uzskaitījums, franču (automātiskie titri), norvēģu.
 </ul>
 </details></div>
             <div class="section"><h2 id="pamatstruktūras-pārbaude">Pamatstruktūras pārbaude</h2>
-<p>Kamēr pārējās pārbaudes šajā lapā koncentrējas uz īpašiem sekmīguma  kritērijiem WCAG 2.0, šī pārbaude ir daudz plašāka. Tā palīdz saprast, cik atšķirīgi daļa cilvēku redz tīmekļa lapas.<br>Lai pārbaudītu pamatstruktūru, jums ir jāplūko tīmekļa lapu, kāda tā ir bez attēliem, stila un izkārtojuma (layout). </p>
-<p>Tīmekļa lapas bieži tiek veidotas ar vairākām kolonnām, sadaļām, krāsām un citiem vizuāliem aspektiem, kas palīdz organizēt informāciju cilvēkiem, kuri redz lapu tādu, kāda tā tiek rādīta ekrānā pēc noklusējuma. Taču visi cilvēki neredz lapas vienādi. Neredzīgi cilvēki klausās, ko lasa ekrāna lasītāji, vai lasa lapas ar Braila displeju palīdzību. Daļa cilvēku ar vāju redzi, lai varētu izlasīt informāciju, maina lapas parādīšanās veidu ekrānā, piemēram, pāveido no vairākām kolonnām uz vienu, maina teksta lielumu utt. </p>
-<p>Būtisks jautājums, kā lapa strādā, kad tā tiek “linearizēta” vienā kolonā un tiek  mainīts tās attēlojums ( skatīt zemāk redzamajos attēlos). </p>
+<p><em>Kamēr pārējās pārbaudes šajā lapā koncentrējas uz īpašiem sekmīguma kritērijiem WCAG 2.0, šī pārbaude ir daudz plašāka. Tā palīdz saprast, cik atšķirīgi daļa cilvēku redz tīmekļa lapas.
+Lai pārbaudītu pamatstruktūru, jums ir jāplūko tīmekļa lapabez attēliem, stila un izkārtojuma.</em> </p>
+<p>Tīmekļa lapas bieži tiek veidotas ar vairākām kolonnām, sadaļām, krāsām un citiem vizuāliem aspektiem, kas palīdz organizēt informāciju cilvēkiem, kuri redz lapu tādu, kāda tā tiek rādīta ekrānā pēc noklusējuma. Taču visi cilvēki neredz lapas vienādi. Neredzīgi cilvēki klausās, ko lasa ekrāna lasītāji, vai lasa lapas ar Braila displeju palīdzību. Daļa cilvēku ar vāju redzi, lai varētu izlasīt informāciju, maina lapas parādīšanās veidu ekrānā, piemēram, pāveido no vairākām kolonnām uz vienu, maina teksta lielumu utt.</p>
+<p>Būtiski, kā lapa strādā, kad tā tiek “linearizēta” vienā kolonā un tiek mainīts tās attēlojums (skatīt zemāk redzamajos attēlos).</p>
 <details>
-<summary>Attēlos parādīta linearizēta un mainīta lapu attēlošana erkrānā. (uzklikšķiniet, lai redzētu attēlus)</summary>
+<summary>Attēlos parādīta linearizēta un mainīta lapu attēlošana erkrānā. Uzklikšķiniet, lai redzētu attēlus.</summary>
 
 
-<p>Attēlā A redzams noklusējuma attēlošanas veidu ekrānā: trīs kolonnas ar navigāciju kreisajā pusē. </p>
+<p>Attēlā A redzams noklusējuma attēlošanas veids ekrānā: trīs kolonnas ar navigāciju kreisajā pusē. </p>
 <figure markdown="1">
 
-<pre><code>![test](assets/images/page-title-tab-popup.png)
-
-&lt;figcaption&gt;
+<p><img src="assets/images/page-title-tab-popup.png" alt="Attēls A"></p>
+<figcaption>
 Attēls A
-&lt;/figcaption&gt;</code></pre></figure>
+</figcaption>
+</figure>
 
-<p>Attēlā B redzama lapa, kas ir linearizēta vienā kolonnā, ar augšpusē izvietotu navigāciju. Attēlā C ir linearizēta lapa ar navigāciju apakšā. Sadaļu kārtība ( piemēram, navigācija apakšējā vai apakšējā vai arī citā vietā) ir atkarīga no lapas izstrādes, jo parasti  lietotājam nav iespēju kontrolēt secību. </p>
+<p>Attēlā B redzama lapa, kas ir linearizēta vienā kolonnā, ar augšpusē izvietotu navigāciju. </p>
 <figure markdown="2">
 
-<pre><code>![test](assets/images/basic-check-lin-lin.png)
-
-&lt;figcaption&gt;
+<p><img src="assets/images/basic-check-lin-lin.png" alt="Attēls B"></p>
+<figcaption>
 Attēls B
-&lt;/figcaption&gt;</code></pre></figure>
+</figcaption>
+</figure>
 
+<p>Attēlā C ir linearizēta lapa ar navigāciju apakšā. Sadaļu kārtība ( piemēram, apakšējā vai apakšējā daļā izvietota navigācija) ir atkarīga no lapas izstrādes, jo parasti lietotājam nav iespējas kontrolēt secību.</p>
 <figure markdown="3">
 
-<pre><code>![test](assets/images/basic-check-lin-awk.png)
-
-&lt;figcaption&gt;
+<p><img src="assets/images/basic-check-lin-awk.png" alt="Attēls C"></p>
+<figcaption>
 Attēls C
-&lt;/figcaption&gt;</code></pre></figure>
+</figcaption>
+</figure>
 
-<p>Attēlā D redzama linearizēta lapa ar izslēgtiem stiliem. Kad jūs sekosiet pamatstruktūras pārbaudes soļiem (skatīt zemāk), jūsu lapa izskatīsies aptuveni šādi: </p>
+<p>Attēlā D redzama linearizēta lapa ar izslēgtiem stiliem. Kad jūs sekosiet pamatstruktūras pārbaudes soļiem (skatīt zemāk), jūsu lapa izskatīsies aptuveni šādi. </p>
 <figure markdown="4">
 
-<pre><code>![test](assets/images/basic-check-lin-plain.png)
-
-&lt;figcaption&gt;
+<p><img src="assets/images/basic-check-lin-plain.png" alt="Attēls D"></p>
+<figcaption>
 Attēls D
-&lt;/figcaption&gt;</code></pre></figure>
+</figcaption>
+</figure>
 
-
-<p>Attēlā E redzama lapa, kurā izmaiņas ir varētu būt veicis cilvēks ar sliktu redzi, lai tā kļūtu vieglāk lasāma, piemēram, galvenais teksts tiek pārveidots ļoti liels, kājenes teksts   -  ļoti mazs, virsraksti tiek rādīti atšķirīgās krāsās. </p>
+<p>Attēlā E redzama lapa, kurā izmaiņas varētu būt veicis vājredzīgs cilvēks,  lai tā kļūtu vieglāk lasāma, piemēram, galvenais teksts ir pārveidots ļoti liels, kājenes teksts - ļoti mazs, bet virsraksti tiek rādīti atšķirīgās krāsās.</p>
 <figure markdown="5">
 
-<pre><code>![test](assets/images/basic-check-lin-lv.png)
-
-&lt;figcaption&gt;
+<p><img src="assets/images/basic-check-lin-lv.png" alt="Attēls E"></p>
+<figcaption>
 Attēls E
-&lt;/figcaption&gt;</code></pre></figure>
+</figcaption>
+</figure>
 
 </details>
 
-<p>Lai arī ir noderīgi , ka tīmekļa lapu  pārbauda pieredzējis ekrāna lasītāja lietotājs, ikviens var gūt sākotnēju priekšstatu, ar kādiem šķēršļiem potnciāli var saskarties ekrāna lasītāju lietotāji un citi cilvēki, kuri maina lapas attēlošanas veidu.</p>
-<p>Sekojot zemāk redzamajiem soļiem, jūs uzzināsiet, kā atspējot attēlus un ierastos lapas parādīšanas stilus un kā linearizēt lapu, lai pārbaudītu lapas struktūru.</p>
+<p>Lai arī ir noderīgi, ka tīmekļa lapu pārbauda pieredzējis ekrāna lasītāja lietotājs, ikviens var gūt sākotnēju priekšstatu, ar kādiem šķēršļiem potenciāli var saskarties ekrāna lasītāju lietotāji un citi cilvēki, kuri maina lapas attēlošanas veidu.</p>
+<p>Sekojot zemāk uzskaitītajiem soļiem, jūs uzzināsiet, kā atspējot attēlus un ierastos lapas parādīšanas stilus un kā linearizēt lapu, lai pārbaudītu lapas struktūru.</p>
 <p>Piezīmes. </p>
 <ul>
-<li>Kad datu tabulas tiek linearizētas, tām zūd nozīme. Par to nav jāraizējas, jo ekrāna lasītājiem ir funkcionalitāte, kas dod iespēju izmantot datu tabulas ( ja tās ir pareizi atzīmētas lapu kodā). </li>
-<li>PPD (pirms un pēc demonstrēšanas)  piedāvā skaidru piemēru, kā pamatstruktūras pārbaude var atklāt šķēršļus piekļūstamībai. ( Tas ir arī aizraujoši, un mēs aicinām to noteikti  izmēģināt. Sekojot zemāk redzamajām PPD instrukcijām.)</li>
+<li>Kad datu tabulas tiek linearizētas, tām zūd nozīme. Par to nav jāraizējas, jo ekrāna lasītājiem ir funkcionalitāte, kas dod iespēju izmantot datu tabulas ( ja tās ir pareizi atzīmētas lapu kodā).</li>
+<li>PPD piedāvā skaidru piemēru, kā pamatstruktūras pārbaude atklāj  šķēršļus piekļūstamībai. ( Tas ir arī aizraujoši, un mēs aicinām to noteikti izmēģināt. Sekojot zemāk redzamajām PPD instrukcijām.)</li>
 </ul>
 <h3 id="kas-ir-jādara">Kas ir jādara?</h3>
-<p>Izveidojiet lapas pamatstruktūras skatu, sekojot zemāk redzamām instrukcijām„Pamatstruktūras pārbaude”. Tas ir nepieciešams, lai:</p>
+<p>Izveidojiet lapas pamatstruktūras skatu, sekojot zemāk redzamām instrukcijām „Pamatstruktūras pārbaude”. Tas ir nepieciešams, lai:</p>
 <ul>
-<li>izslēgtu attēlu rādīšanu un parādītu tekstuālās alternatīvas; </li>
-<li>izslēgtu stila lapas (CSS), kas nosaka, kā lapas izkārtojumu, krāsas;</li>
-<li>linearizētu lapas vai tabulas ( tas ir atkarīgs no rīkjoslas). </li>
+<li>izslēgtu attēlu rādīšanu un parādītu tekstuālās alternatīvas;</li>
+<li>izslēgtu stila lapas (CSS), kas nosaka lapas izkārtojumu, krāsas un citu noformējumu;</li>
+<li>linearizētu lapas vai tabulas ( atkarībā no rīkjoslas).</li>
 </ul>
 <h3 id="kas-ir-jāpārbauda">Kas ir jāpārbauda?</h3>
 <ul>
-<li>Pārbaudiet, ka informācijai ir saprotama, ja to lasa secībā, kādā tā ir redzama. Piemēram, vai virsraksti ir tieši virs informācijas, uz kuru tie attiecas. 
-(Liniarizētām datu tabulām nav jābūt nozīmei).</li>
-<li>Pārbaudiet, vai tekstuālās alternatīvas piedāvā atblstošu informāciju attēliem,kuri nav redzam ( skatīt sadaļu par attēlu tekstuāajām alternatīvām). </li>
-<li>Pārbaudiet, vai informācijas blokiem ir skaidri virsraksti ( skatīt šajā lapā sadaļu par virsrakstiem). Ja navigācijai, galvenajam saturam un citām sadaļām ir atbilstoši virsraksti, cilvēliem ir vieglāk atrast informāciju. </li>
+<li>Pārbaudiet, vai informācija ir saprotama, ja to lasa redzamajā secībā,. Piemēram, vai virsraksti ir tieši virs informācijas, uz kuru tie attiecas. (Liniarizētām datu tabulām nav nepieciešama jēga).</li>
+<li>Pārbaudiet, vai tekstuālās alternatīvas piedāvā atblstošu informāciju attēliem, kuri nav redzami ( skatīt sadaļu par attēlu tekstuālajām alternatīvām).</li>
+<li>Pārbaudiet, vai informācijas blokiem ir skaidri virsraksti ( skatīt šajā lapā sadaļu “Virsraksti” ). Ja navigācijai, galvenajam saturam un citām sadaļām ir atbilstoši virsraksti, cilvēliem ir vieglāk atrast informāciju.</li>
 </ul>
 <h3 id="pamatstruktūras-pārbaude-1">Pamatstruktūras pārbaude</h3>
 <details>
-<summary>Pamatstruktŗās pārbade ar IE WAT</summary>
+<summary>Pamatstruktūras pārbaude ar IE WAT.</summary>
 
 <ol>
-<li>Atveriet jaunu lapu, kuru vēlaties pārbaudīt. </li>
-<li>RĪkjoslā atlasiet izvēli “Attēli” ( Images), tad “Noņemt attēlus” vai uz klaviatūras nospiediet Ctrl+Alt+4 un ar lejpvērsto bultu uz “Noņemt attēlus” ( “Remove images”). </li>
-<li>Rīkjoslā atlasiet “CSS” un “Atspējot CSS”( “Disable CSS”) vai uz klaviatūras spiediet Ctrl+Alt+3 un ar lejupvērsto bultiņu uz “Atspējot CSS”( “Disable CSS”). </li>
-<li>Rīkjoslā atlasiet  “Tabula” (“Tables”), un pēc tam  “Linearizēt” ( “Linearize”). </li>
+<li>Atveriet jaunu lapu, kuru vēlaties pārbaudīt.</li>
+<li>Rīkjoslā atlasiet izvēli <strong>Attēli</strong> ( <em>Images</em>), tad <strong>Noņemt attēlus</strong> ( <em>Remove Images</em>).<br>
+Vai uz klaviatūras nospiediet <strong>Ctrl+Alt+4</strong> un ar lejupvērsto bultu uz <strong>Noņemt attēlus</strong>.</li>
+<li>Rīkjoslā atlasiet <strong>CSS</strong> un <strong>Atspējot CSS</strong> (<em>Disable CSS</em>). <br>
+Vai uz klaviatūras spiediet <strong>Ctrl+Alt+3</strong> un ar lejupvērsto bultiņu uz <strong>Atspējot CSS</strong>.</li>
+<li>Rīkjoslā atlasiet <strong>Tabula</strong>, un pēc tam <strong>Linearizēt</strong>.</li>
 </ol>
 </details>
 
 
 <details>
-<summary>Pamatstruktūras pārbaude ar WebDey rīkjoslu (Webdey toolbar)</summary>
+<summary>Pamatstruktūras pārbaude ar WebDey rīkjoslu.</summary>
 
 <ol>
 <li><p>Atveriet lapu, kuru vēlaties pārbaudīt.</p>
 </li>
-<li><p>Rīkjoslā atlasiet “attēli” ( “Images”), “atspējot attēlus” (“Disable Images” ) un “Atspējot visus attēlus” (“Disable All Images”) vai  nospiediet uz   tastatūras Alt + T, W (uz  Tīmekļa Attīstītāja paplašinājumu (Web Developer Extension)) , I, D, D.</p>
+<li><p>Rīkjoslā atlasiet <strong>Attēli</strong> ( <em>Images</em>),<strong>Atspējot attēlus</strong> (<em>Disable Images</em>) un <strong>Atspējot visus attēlus</strong> (<em>Disable All Image</em>) <br>
+Vai nospiediet uz tastatūras <strong>Alt + T</strong>, <strong>W</strong> (uz <strong>Tīmekļa Attīstītāja paplašinājums</strong> (Web Developer Extension)) , <strong>I, D, D.</strong></p>
 </li>
-<li><p>Rīkjoslā atlasiet “CSS”, pēc tam “Atspējot stilus” (&quot;Disable Styles&quot;)un pēc tam “Atspējot visus stilus” (&quot;Disable All Styles&quot;) vai arī spiediet uz  tastatūras Alt + T, W (uz  Tīmekļa Attīstītāja paplašinājumu (Web Developer Extension)), S, D, D.</p>
+<li><p>Rīkjoslā atlasiet <strong>CSS</strong>, pēc tam <strong>Atspējot stilus</strong> (<em>Disable Styles</em>) un pēc tam <strong>Atspējot visus stilus</strong> (<em>Disable All Styles</em>) <br>
+Vai arī spiediet uz tastatūras <strong>Alt + T</strong>, <strong>W</strong> (uz <strong>Tīmekļa Attīstītāja paplašinājums</strong>), <strong>S, D, D.</strong></p>
 </li>
-<li><p>Rīkjoslā atlasiet “Dažādi” (“Miscellaneous” ) un pēc tam “Linearizēt lapu”( &quot;Linearize Page&quot;) vai arī spiediet uz tastatūras  Alt + T, W (uz  Tīmekļa Attīstītāja paplašinājumu (Web Developer Extension), M, I.</p>
+<li><p>Rīkjoslā atlasiet <strong>Dažādi</strong> (<em>Miscellaneous</em> ) un pēc tam <strong>Linearizēt lapu</strong>( <em>Linearize Page</em>) <br>
+Vai arī spiediet uz tastatūras <strong>Alt + T</strong>, <strong>W</strong> (uz <strong>Tīmekļa Attīstītāja paplašinājums</strong>), <strong>M, I.</strong></p>
 </li>
 </ol>
 </details>
@@ -1021,26 +1026,25 @@ Attēls E
 <details>
 <summary>Pamatstruktūru pārbaude, izmantojot jebkuru no pārlūkprogrammām</summary>
 
-<p>Lielākā daļa pārlūkprogrammu piedāvā iespēju izslēgt attēlus un izvēlnēs atspējot CSS. Piemēri:</p>
+<p>Lielākā daļa pārlūkprogrammu piedāvā iespēju izslēgt attēlus un izvēlnēs atspējot CSS. 
+Piemēriam:</p>
 <ul>
-<li><p>Opera</p>
-<ul>
-<li>Skatīt ( View) &gt; Attēli ( Images)&gt; Rādīt attēlus ( Show Images) va arī: Alt + V, I, S.</li>
-<li>Skats ( View)&gt; Stils Style &gt; Lietotāja režīms (User Mode) vai arī : Alt + V, S, U.</li>
+<li><em>Opera</em><ul>
+<li><strong>Skatīt</strong> ( <em>View</em>) &gt; <strong>Attēli</strong> ( <em>Images</em>)&gt; <strong>Rādīt attēlus</strong> ( <em>Show Images</em>).</li>
+<li>Vai <strong>Alt + V, I, S</strong>.</li>
+<li><strong>Skats</strong> ( <em>View</em>)&gt; <strong>Stils</strong> (<em>Style</em>) &gt; <strong>Lietotāja režīms</strong> (<em>User Mode</em>) vai <strong>Alt + V, S, U.</strong></li>
 </ul>
 </li>
-<li><p>Safari</p>
-<ul>
-<li><p>Ja izvēlņu joslā  nav redzama izvēlne “Izstrāde” ( “Develop”), ieslēdziet to:</p>
-<ul>
-<li>sadaļā “Preferences” noklikšķiniet uz “Papildu” ( “Advanced”), </li>
-<li>atzīmējiet izvēles rūtiņu “Rādīt izvēlni “Izstrāde” izvēļņu joslā” (“Show Develop menu in menu bar&quot;).</li>
+<li><em>Safari</em><ul>
+<li>Ja izvēlņu joslā nav redzama izvēlne <strong>Izstrāde</strong> ( <em>Develop</em>), ieslēdziet to:<ul>
+<li>sadaļā <strong>Preferences</strong> noklikšķiniet uz <strong>Papildu</strong> ( <em>Advanced</em>);</li>
+<li>atzīmējiet izvēles rūtiņu <strong>Rādīt Izstrādes izvēlni izvēļņu joslā</strong> <em>(Show Develop menu in menu bar</em>).</li>
 </ul>
 </li>
-<li><p>Izstrāde (Develop)  &gt; Atspējot attēlus ( Disable Images) vai Ctrl + F2, D, lejupvērstā bultiņa uz “Atspējot attēlus” ( Disable Images). </p>
-</li>
-<li><p>Izstrāde ( Develop)&gt; Atspējot stilus (Disable Styles) vai Ctrl + F2, D, lejupvērstā bultiņa uz  “Atspējot stilus” ( Disable Styles).</p>
-</li>
+<li><strong>Izstrāde</strong> (<em>Develop</em>) &gt; <strong>Atspējot attēlus</strong> (<em>Disable Images</em>). <br>
+Vai <strong>Ctrl + F2, D</strong>, lejupvērstā bultiņa uz <strong>Atspējot attēlus.</strong> </li>
+<li><strong>Izstrāde</strong> ( <em>Develop</em>)&gt; <strong>Atspējot stilus</strong> (<em>Disable Styles.</em>) <br>
+Vai <strong>Ctrl + F2, D</strong>, lejupvērstā bultiņa uz <strong>Atspējot stilus</strong>. </li>
 </ul>
 </li>
 </ul>
@@ -1051,14 +1055,13 @@ Attēls E
 <summary>Pamatstruktūras pārbaude ar PPD (pirms un pēc demonstrācijas)</summary>
 
 <ul>
-<li>Vispirms izmantojiet piekļūstamo mājas lapu - <a href="http://www.w3.org/WAI/demos/bad/after/home">www.w3.org/WAI/demos/bad/after/home</a>, un ar vienu no iepriekš minētajām iespējām izslēdziet attēlus, atspējojiet CSS un linearizējiet šo lapu. 
-Ievērojiet, ka sadaļā “Esiet sveicināti “CityLights”(“Welcome to CityLights” ) ir 3 virsraksti, un zem katra no tiem ir kopsavilkuma teksts. </li>
-<li>Pēc tam izmantojiet nepiekļūstamo mājas lapu: <a href="http://www.w3.org/WAI/demos/bad/before/home">www.w3.org/WAI/demos/bad/before/home</a>. Ar vienu no augstāk minētajām iespējām  izslēdziet attēlus, atspējojiet CSS un linearizējiet lapu.<ul>
-<li>Atrodiet virsrakstu “Esiet sveicināti “CityLights”(“Welcome to CityLights” ). Ievērojiet, ka to izdarīt ir  daudz grūtāk, jo tas nav atzīmēts lapas kodā kā virsraksts. </li>
-<li>Ievērojiet, ka 3 rakstu virsraksti ir kopā un arī raksta teksti ir kopā. (Lai būtu jautrāk, pamēģiniet izlasīt šo tekstu). </li>
+<li>Vispirms izmantojiet piekļūstamo mājas lapu - <a href="http://www.w3.org/WAI/demos/bad/after/home">www.w3.org/WAI/demos/bad/after/home</a>, un ar vienu no iepriekš minētajām iespējām izslēdziet attēlus, atspējojiet CSS un linearizējiet šo lapu. Ievērojiet, ka sadaļā <em>“Welcome to CityLights”</em>  ir 3 virsraksti, un zem katra no tiem ir kopsavilkuma teksts.</li>
+<li>Pēc tam izmantojiet nepiekļūstamo mājas lapu: <a href="http://www.w3.org/WAI/demos/bad/before/home">www.w3.org/WAI/demos/bad/before/home</a>. Ar vienu no augstāk minētajām iespējām izslēdziet attēlus, atspējojiet CSS un linearizējiet lapu.<ul>
+<li>Atrodiet virsrakstu <em>“Welcome to CityLights”</em>. Ievērojiet, ka to ir izdarīt daudz grūtāk, jo tas nav atzīmēts lapas kodā kā virsraksts.</li>
+<li>Ievērojiet, ka 3 rakstu virsraksti ir kopā un arī raksta teksti ir kopā. (Lai būtu jautrāk, pamēģiniet izlasīt šo tekstu).</li>
 </ul>
 </li>
-<li>Lai pārbaudītu formas,  izmantojiet nepiekļūstamo lapu: <a href="http://www.w3.org/WAI/demos/bad/before/survey">www.w3.org/WAI/demos/bad/before/survey</a>.  (Piemērs ir vieglāk redzams,ja izmantojat IE WAT.) Pievērsiet uzmanību,  ka radio pogu lauku nosaukumi ( label) ir atsevišķi no pogām. Iemesls tam  ir nepareizi izmantotas  izkārtojumu tabulas (layout tables). </li>
+<li>Lai pārbaudītu formas, izmantojiet nepiekļūstamo lapu: <a href="http://www.w3.org/WAI/demos/bad/before/survey">www.w3.org/WAI/demos/bad/before/survey</a>. (Piemērs ir vieglāk redzams, ja izmantojat <em>IE WAT</em>.) Pievērsiet uzmanību, ka radio pogu nosaukumi ( <em>label</em>)  ir atsevišķi no pogām. Iemesls tam ir nepareizi izmantotas izkārtojumu tabulas (<em>layout tables</em>).</li>
 </ul>
 </details>
 
