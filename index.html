@@ -869,14 +869,14 @@ Attēls: titru uzskaitījums, franču (automātiskie titri), norvēģu.
 </div>
             <div class="section"><h2 id="pamatstruktūras-pārbaude">Pamatstruktūras pārbaude</h2>
 <p><em>Kamēr pārējās pārbaudes šajā lapā koncentrējas uz īpašiem sekmīguma kritērijiem WCAG 2.0, šī pārbaude ir daudz plašāka. Tā palīdz saprast, cik atšķirīgi daļa cilvēku redz tīmekļa lapas.
-Lai pārbaudītu pamatstruktūru, jums ir jāplūko tīmekļa lapabez attēliem, stila un izkārtojuma.</em> </p>
-<p>Tīmekļa lapas bieži tiek veidotas ar vairākām kolonnām, sadaļām, krāsām un citiem vizuāliem aspektiem, kas palīdz organizēt informāciju cilvēkiem, kuri redz lapu tādu, kāda tā tiek rādīta ekrānā pēc noklusējuma. Taču visi cilvēki neredz lapas vienādi. Neredzīgi cilvēki klausās, ko lasa ekrāna lasītāji, vai lasa lapas ar Braila displeju palīdzību. Daļa cilvēku ar vāju redzi, lai varētu izlasīt informāciju, maina lapas parādīšanās veidu ekrānā, piemēram, pāveido no vairākām kolonnām uz vienu, maina teksta lielumu utt.</p>
-<p>Būtiski, kā lapa strādā, kad tā tiek “linearizēta” vienā kolonā un tiek mainīts tās attēlojums (skatīt zemāk redzamajos attēlos).</p>
+Lai pārbaudītu pamatstruktūru, jums ir jāaplūko tīmekļa lapabez attēliem, stila un izkārtojuma.</em> </p>
+<p>Tīmekļa lapas bieži tiek veidotas ar vairākām slejām, sadaļām, krāsām un citiem vizuāliem aspektiem, kas palīdz organizēt informāciju cilvēkiem, kuri redz lapu tādu, kāda tā tiek rādīta ekrānā pēc noklusējuma. Taču visi cilvēki neredz lapas vienādi. Neredzīgi cilvēki klausās, ko lasa ekrāna lasītāji, vai lasa lapas ar Braila displeju palīdzību. Daļa cilvēku ar vāju redzi, lai varētu izlasīt informāciju, maina lapas parādīšanās veidu ekrānā, piemēram, pārveido no vairākām slejām uz vienu, maina teksta lielumu utt.</p>
+<p>Būtiski, kā lapa strādā, kad tā tiek “linearizēta” vienā slejā un tiek mainīts tās attēlojums (skatīt zemāk redzamajos attēlos).</p>
 <details>
-<summary>Attēlos parādīta linearizēta un mainīta lapu attēlošana erkrānā. Uzklikšķiniet, lai redzētu attēlus.</summary>
+<summary>Attēlos parādīta linearizēta un mainīta lapu attēlošana ekrānā. Uzklikšķiniet, lai redzētu attēlus.</summary>
 
 
-<p>Attēlā A redzams noklusējuma attēlošanas veids ekrānā: trīs kolonnas ar navigāciju kreisajā pusē. </p>
+<p>Attēlā A redzams noklusējuma attēlošanas veids ekrānā: trīs slejas ar navigāciju kreisajā pusē. </p>
 <figure markdown="1">
     <img class="lazy" data-src="assets/images/page-title-tab-popup.png" alt="Attēls A">
 <figcaption>
@@ -884,7 +884,7 @@ Attēls A
 </figcaption>
 </figure>
 
-<p>Attēlā B redzama lapa, kas ir linearizēta vienā kolonnā, ar augšpusē izvietotu navigāciju. </p>
+<p>Attēlā B redzama lapa, kas ir linearizēta vienā slejā, ar augšpusē izvietotu navigāciju. </p>
 <figure markdown="2">
     <img class="lazy" data-src="assets/images/basic-check-lin-lin.png" alt="Attēls B">
 <figcaption>
@@ -922,21 +922,21 @@ Attēls E
 <p>Sekojot zemāk uzskaitītajiem soļiem, jūs uzzināsiet, kā atspējot attēlus un ierastos lapas parādīšanas stilus un kā linearizēt lapu, lai pārbaudītu lapas struktūru.</p>
 <p>Piezīmes. </p>
 <ul>
-<li>Kad datu tabulas tiek linearizētas, tām zūd nozīme. Par to nav jāraizējas, jo ekrāna lasītājiem ir funkcionalitāte, kas dod iespēju izmantot datu tabulas (ja tās ir pareizi atzīmētas lapu kodā).</li>
-<li>PPD piedāvā skaidru piemēru, kā pamatstruktūras pārbaude atklāj šķēršļus piekļūstamībai. (Tas ir arī aizraujoši, un mēs aicinām to noteikti izmēģināt. Sekojot zemāk redzamajām <a href="https://www.w3.org/WAI/test-evaluate/preliminary/#plainBAD">PPD instrukcijām</a>.)</li>
+<li>Kad datu tabulas tiek linearizētas, tām zūd nozīme. Par to nav jāraizējas, jo ekrāna lasītājiem ir funkcionalitāte, kas dod iespēju izmantot datu tabulas (ja tās ir pareizi iezīmētas lapu kodā).</li>
+<li>PPD piedāvā skaidru piemēru, kā pamatstruktūras pārbaude atklāj šķēršļus piekļūstamībai. (Tas ir arī aizraujoši, un mēs aicinām to noteikti izmēģināt. Sekojiet zemāk redzamajām <a href="https://www.w3.org/WAI/test-evaluate/preliminary/#plainBAD">PPD instrukcijām</a>.)</li>
 </ul>
 <h3 id="kas-ir-jādara">Kas ir jādara?</h3>
-<p>Izveidojiet lapas pamatstruktūras skatu, sekojot zemāk redzamām instrukcijām „<a href="https://www.w3.org/WAI/test-evaluate/preliminary/#structure">Pamatstruktūras pārbaude</a>”. Tas ir nepieciešams, lai:</p>
+<p>Izveidojiet lapas pamatstruktūras skatu, sekojot zemāk redzamām instrukcijām “<a href="https://www.w3.org/WAI/test-evaluate/preliminary/#structure">Pamatstruktūras pārbaude</a>”. Tas ir nepieciešams, lai:</p>
 <ul>
 <li>izslēgtu attēlu rādīšanu un parādītu tekstuālās alternatīvas;</li>
-<li>izslēgtu stila lapas (CSS), kas nosaka lapas izkārtojumu, krāsas un citu noformējumu;</li>
+<li>izslēgtu stilu sarakstus (CSS), kas nosaka lapas izkārtojumu, krāsas un citu noformējumu;</li>
 <li>linearizētu lapas vai tabulas (atkarībā no rīkjoslas).</li>
 </ul>
 <h3 id="kas-ir-jāpārbauda">Kas ir jāpārbauda?</h3>
 <ul>
-<li>Pārbaudiet, vai informācija ir saprotama, ja to lasa redzamajā secībā,. Piemēram, vai virsraksti ir tieši virs informācijas, uz kuru tie attiecas. (Liniarizētām <a href="https://www.w3.org/WAI/test-evaluate/preliminary/#dtnote">datu tabulām</a> nav nepieciešama jēga).</li>
-<li>Pārbaudiet, vai tekstuālās alternatīvas piedāvā atblstošu informāciju attēliem, kuri nav redzami (skatīt sadaļu par <a href="https://www.w3.org/WAI/test-evaluate/preliminary/#images">attēlu tekstuālajām alternatīvām</a>).</li>
-<li>Pārbaudiet, vai informācijas blokiem ir skaidri virsraksti (skatīt šajā lapā sadaļu “<a href="https://www.w3.org/WAI/test-evaluate/preliminary/#headings">Virsraksti</a>”). Ja navigācijai, galvenajam saturam un citām sadaļām ir atbilstoši virsraksti, cilvēliem ir vieglāk atrast informāciju.</li>
+<li>Pārbaudiet, vai informācija ir saprotama, ja to lasa redzamajā secībā,. Piemēram, vai virsraksti ir tieši virs informācijas, uz kuru tie attiecas. (Linearizētām <a href="https://www.w3.org/WAI/test-evaluate/preliminary/#dtnote">datu tabulām</a> nav nepieciešama jēga).</li>
+<li>Pārbaudiet, vai tekstuālās alternatīvas piedāvā atbilstošu informāciju attēliem, kuri nav redzami (skatīt sadaļu par <a href="https://www.w3.org/WAI/test-evaluate/preliminary/#images">attēlu tekstuālajām alternatīvām</a>).</li>
+<li>Pārbaudiet, vai informācijas blokiem ir skaidri virsraksti (skatīt šajā lapā sadaļu “<a href="https://www.w3.org/WAI/test-evaluate/preliminary/#headings">Virsraksti</a>”). Ja navigācijai, galvenajam saturam un citām sadaļām ir atbilstoši virsraksti, cilvēkiem ir vieglāk atrast informāciju.</li>
 </ul>
 <h3 id="pamatstruktūras-pārbaude-1">Pamatstruktūras pārbaude</h3>
 <details>
@@ -945,28 +945,28 @@ Attēls E
 <ol>
 <li>Atveriet jaunu lapu, kuru vēlaties pārbaudīt.</li>
 <li>Rīkjoslā atlasiet izvēli <strong>Attēli</strong> (<em>Images</em>), tad <strong>Noņemt attēlus</strong> (<em>Remove Images</em>).<br>
-Vai uz klaviatūras nospiediet <strong>Ctrl+Alt+4</strong> un ar lejupvērsto bultu uz <strong>Noņemt attēlus</strong>.</li>
+Vai uz tastatūras nospiediet <strong>Ctrl+Alt+4</strong> un ar lejupvērsto bultu uz <strong>Noņemt attēlus</strong>.</li>
 <li>Rīkjoslā atlasiet <strong>CSS</strong> un <strong>Atspējot CSS</strong> (<em>Disable CSS</em>). <br>
-Vai uz klaviatūras spiediet <strong>Ctrl+Alt+3</strong> un ar lejupvērsto bultiņu uz <strong>Atspējot CSS</strong>.</li>
+Vai uz tastatūras spiediet <strong>Ctrl+Alt+3</strong> un ar lejupvērsto bultiņu uz <strong>Atspējot CSS</strong>.</li>
 <li>Rīkjoslā atlasiet <strong>Tabula</strong>, un pēc tam <strong>Linearizēt</strong>.</li>
 </ol>
 </details>
 
 
 <details>
-<summary>Pamatstruktūras pārbaude ar WebDey rīkjoslu.</summary>
+<summary>Pamatstruktūras pārbaude ar WebDev rīkjoslu.</summary>
 
 <ol>
 <li><p>Atveriet lapu, kuru vēlaties pārbaudīt.</p>
 </li>
 <li><p>Rīkjoslā atlasiet <strong>Attēli</strong> (<em>Images</em>),<strong>Atspējot attēlus</strong> (<em>Disable Images</em>) un <strong>Atspējot visus attēlus</strong> (<em>Disable All Image</em>) <br>
-Vai nospiediet uz tastatūras <strong>Alt + T</strong>, <strong>W</strong> (uz <strong>Tīmekļa Attīstītāja paplašinājums</strong> (Web Developer Extension)), <strong>I, D, D.</strong></p>
+Vai nospiediet uz tastatūras <strong>Alt + T</strong>, <strong>W</strong> (uz <strong>Tīmekļa izstrādātāja  paplašinājums</strong> (Web Developer Extension)), <strong>I, D, D.</strong></p>
 </li>
 <li><p>Rīkjoslā atlasiet <strong>CSS</strong>, pēc tam <strong>Atspējot stilus</strong> (<em>Disable Styles</em>) un pēc tam <strong>Atspējot visus stilus</strong> (<em>Disable All Styles</em>) <br>
-Vai arī spiediet uz tastatūras <strong>Alt + T</strong>, <strong>W</strong> (uz <strong>Tīmekļa Attīstītāja paplašinājums</strong>), <strong>S, D, D.</strong></p>
+Vai arī spiediet uz tastatūras <strong>Alt + T</strong>, <strong>W</strong> (uz <strong>Tīmekļa izstrādātāja  paplašinājums</strong>), <strong>S, D, D.</strong></p>
 </li>
 <li><p>Rīkjoslā atlasiet <strong>Dažādi</strong> (<em>Miscellaneous</em>) un pēc tam <strong>Linearizēt lapu</strong> (<em>Linearize Page</em>) <br>
-Vai arī spiediet uz tastatūras <strong>Alt + T</strong>, <strong>W</strong> (uz <strong>Tīmekļa Attīstītāja paplašinājums</strong>), <strong>M, I.</strong></p>
+Vai arī spiediet uz tastatūras <strong>Alt + T</strong>, <strong>W</strong> (uz <strong>Tīmekļa izstrādātāja  paplašinājums</strong>), <strong>M, I.</strong></p>
 </li>
 </ol>
 </details>
@@ -980,7 +980,7 @@ Piemēriam:</p>
 <li><em>Opera</em><ul>
 <li><strong>Skatīt</strong> (<em>View</em>) &gt; <strong>Attēli</strong> (<em>Images</em>)&gt; <strong>Rādīt attēlus</strong> (<em>Show Images</em>).</li>
 <li>Vai <strong>Alt + V, I, S</strong>.</li>
-<li><strong>Skats</strong> (<em>View</em>)&gt; <strong>Stils</strong> (<em>Style</em>) &gt; <strong>Lietotāja režīms</strong> (<em>User Mode</em>) vai <strong>Alt + V, S, U.</strong></li>
+<li><strong>Skats</strong> (<em>View</em>) &gt; <strong>Stils</strong> (<em>Style</em>) &gt; <strong>Lietotāja režīms</strong> (<em>User Mode</em>) vai <strong>Alt + V, S, U.</strong></li>
 </ul>
 </li>
 <li><em>Safari</em><ul>
@@ -1003,9 +1003,9 @@ Vai <strong>Ctrl + F2, D</strong>, lejupvērstā bultiņa uz <strong>Atspējot s
 <summary>Pamatstruktūras pārbaude ar PPD (pirms un pēc demonstrācijas)</summary>
 
 <ul>
-<li>Vispirms izmantojiet piekļūstamo mājas lapu – <a href="http://www.w3.org/WAI/demos/bad/after/home">www.w3.org/WAI/demos/bad/after/home</a>, un ar vienu no iepriekš minētajām iespējām izslēdziet attēlus, atspējojiet CSS un linearizējiet šo lapu. Ievērojiet, ka sadaļā <em>“Welcome to CityLights”</em> ir 3 virsraksti, un zem katra no tiem ir kopsavilkuma teksts.</li>
-<li>Pēc tam izmantojiet nepiekļūstamo mājas lapu: <a href="http://www.w3.org/WAI/demos/bad/before/home">www.w3.org/WAI/demos/bad/before/home</a>. Ar vienu no augstāk minētajām iespējām izslēdziet attēlus, atspējojiet CSS un linearizējiet lapu.<ul>
-<li>Atrodiet virsrakstu <em>“Welcome to CityLights”</em>. Ievērojiet, ka to ir izdarīt daudz grūtāk, jo tas nav <a href="https://www.w3.org/WAI/test-evaluate/preliminary/#markup">atzīmēts lapas kodā</a> kā <a href="https://www.w3.org/WAI/test-evaluate/preliminary/#headings">virsraksts</a>.</li>
+<li>Vispirms izmantojiet piekļūstamo tīmekļa lapu – <a href="http://www.w3.org/WAI/demos/bad/after/home">www.w3.org/WAI/demos/bad/after/home</a>, un ar vienu no iepriekš minētajām iespējām izslēdziet attēlus, atspējojiet CSS un linearizējiet šo lapu. Ievērojiet, ka sadaļā <em>“Welcome to CityLights”</em> ir 3 virsraksti, un zem katra no tiem ir kopsavilkuma teksts.</li>
+<li>Pēc tam izmantojiet nepiekļūstamo tīmekļa lapu: <a href="http://www.w3.org/WAI/demos/bad/before/home">www.w3.org/WAI/demos/bad/before/home</a>. Ar vienu no augstāk minētajām iespējām izslēdziet attēlus, atspējojiet CSS un linearizējiet lapu.<ul>
+<li>Atrodiet virsrakstu <em>“Welcome to CityLights”</em>. Ievērojiet, ka to ir izdarīt daudz grūtāk, jo tas nav <a href="https://www.w3.org/WAI/test-evaluate/preliminary/#markup">iezīmēts lapas kodā</a> kā <a href="https://www.w3.org/WAI/test-evaluate/preliminary/#headings">virsraksts</a>.</li>
 <li>Ievērojiet, ka 3 rakstu virsraksti ir kopā un arī raksta teksti ir kopā. (Lai būtu jautrāk, pamēģiniet izlasīt šo tekstu).</li>
 </ul>
 </li>
@@ -1016,24 +1016,24 @@ Vai <strong>Ctrl + F2, D</strong>, lejupvērstā bultiņa uz <strong>Atspējot s
 
 </div>
             <div class="section"><h2 id="turpmākie-soļi">Turpmākie soļi</h2>
-<p>Tagad, kad jums ir priekšstats par piekļūstamības problēmām tīmekļa vietnēs, jūs varat :</p>
+<p>Tagad, kad jums ir priekšstats par piekļūstamības problēmām tīmekļvietnēs, jūs varat :</p>
 <ol>
 <li>dalīties jūsu atklājumos ar kādu, kas var novērst šos šķēršļus piekļūstamībai;</li>
 <li>ierosināt pilnīgu piekļūstamības novērtēšanu.</li>
 </ol>
 <h3 id="dalīšanās-ar-atklājumiem">Dalīšanās ar atklājumiem</h3>
-<p>Lapā “<a href="https://www.w3.org/WAI/teach-advocate/contact-inaccessible-websites/">Sazināšanās ar organizācijām par nepiekļūstamām tīmekļa vietnēm</a>” ir norādījumi, kā ziņot par piekļūstamības problēmām. Tie ir paredzēti cilvēkiem, kas nestrādā organizācijās, kurām pieder tīmekļa vietnes, tomēr tajos ir  informācija, kas varētu būt noderīga arī šo organizāciju darbiniekiem, īpaši, sadaļas: “Ievads”, “Apsverot savu pieeju” un “Avoti papildu informācijai.”</p>
+<p>Lapā “<a href="https://www.w3.org/WAI/teach-advocate/contact-inaccessible-websites/">Sazināšanās ar organizācijām par nepiekļūstamām tīmekļvietnēm</a>” ir norādījumi, kā ziņot par piekļūstamības problēmām. Tie ir paredzēti cilvēkiem, kas nestrādā organizācijās, kurām pieder tīmekļvietnes, tomēr tajos ir  informācija, kas varētu būt noderīga arī šo organizāciju darbiniekiem, īpaši, sadaļas: “Ievads”, “Apsverot savu pieeju” un “Avoti papildu informācijai.”</p>
 <h3 id="padziļinātākas-piekļūstamības-novērtēšanas-ierosināšana">Padziļinātākas piekļūstamības novērtēšanas ierosināšana</h3>
-<p>Šajā lapā minētās pārbaudes nav galīgas: tīmekļa lapa šķietamivar iziet šīs pārbaudes, tomēr tajās tāpat var būt šķēršļi piekļūstamībai.</p>
-<p>Šī lapa aptvertikai dažus no piekļūstamības aspektiem. Ir vairāki piekļūstamības aspekti, kas nav iekļauti vienkāršajās pārbaudēs, piemēram, saites, <a href="https://www.w3.org/WAI/test-evaluate/preliminary/#markup">datu tabulu atzīmes</a>, paļaušanās uz krāsu risinājumiem un daudzi citi.</p>
+<p>Šajā lapā minētās pārbaudes nav galīgas: tīmekļa lapa šķietami var iziet šīs pārbaudes, tomēr tajās tāpat var būt šķēršļi piekļūstamībai.</p>
+<p>Šī lapa aptver tikai dažus no piekļūstamības aspektiem. Ir vairāki piekļūstamības aspekti, kas nav iekļauti vienkāršajās pārbaudēs, piemēram, saites, <a href="https://www.w3.org/WAI/test-evaluate/preliminary/#markup">datu tabulu iezīmes</a>, paļaušanās uz krāsu risinājumiem un daudzi citi.</p>
 <p>Lai pilnīginovērtētu lapas piekļūstamību, jums būs nepieciešama papildu izpēte. Norādījumi ir pieejami:</p>
 <ul>
 <li>novērtēšanas metodoloģija un ziņojumu ģenerētājs:<ul>
-<li><a href="https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/">WCAG-EM pārskats</a>: tīmekļa vietnes pieejamības atbilstības novērtēšanas metodoloģija,</li>
-<li><a href="https://www.w3.org/WAI/eval/report-tool/#/">WCAG-EM zinošanas rīks</a>: tīmekļa vietnes pieejamības novērtējuma ziņojuma ģenerētājs;</li>
+<li><a href="https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/">WCAG-EM pārskats</a>: tīmekļvietnes pieejamības atbilstības novērtēšanas metodoloģija,</li>
+<li><a href="https://www.w3.org/WAI/eval/report-tool/#/">WCAG-EM zinošanas rīks</a>: tīmekļvietnes pieejamības novērtējuma ziņojuma ģenerētājs;</li>
 </ul>
 </li>
-<li><a href="https://www.w3.org/WAI/test-evaluate/tools/selecting/">Tīmekļa vietņu piekļūstamības novērtēšanas rīku izvēle</a>;</li>
+<li><a href="https://www.w3.org/WAI/test-evaluate/tools/selecting/">Tīmekļvietņu piekļūstamības novērtēšanas rīku izvēle</a>;</li>
 <li><a href="https://www.w3.org/WAI/test-evaluate/involving-users/">Lietotāju iesaiste tīmekļa pieejamības novērtēšanā</a>.</li>
 </ul>
 </div>
